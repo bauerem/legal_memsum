@@ -19,9 +19,9 @@ Setup an environment and download model weights
 
 ## Use model
 
-To summarize the opinion text located in the 'opinion.txt' file, simply run
+To summarize an opinion run the 'run_memsum.py' script with python and the filename containing the opinion, you wish to summarize. An example opinion is provided in this repository named 'opinion.txt'. To summarize this example opinion use the following command
 
-    python run_memsum.py
+    python run_memsum.py -f opinion.txt
 
 ## Output
 

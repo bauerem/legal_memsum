@@ -1,9 +1,16 @@
 from memsum import MemSum
 from nltk import sent_tokenize
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-f", "--filename", type=str)
+
+args = parser.parse_args()
+
 model_path = "model/MemSum_Final/model.pt"
 
-opinion = " ".join(open("opinion.txt", "r").readlines())
+opinion = " ".join(open(args.filename, "r").readlines())
 
 def preprocess(text):
     text = text.replace("\n","")
