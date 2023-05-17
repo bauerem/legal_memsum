@@ -1,5 +1,7 @@
 # Legal MemSum
 
+This repo contains code and models for summarizing US Court opinions. The summarizer is described in more detail in [(Bauer et al., 2023)](https://arxiv.org/abs/2305.08428)
+
 <img title="a title" alt="Alt text" src="robot-judge.jpg" width="300vw">
 
 ## Download the code
