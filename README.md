@@ -1,5 +1,6 @@
 # Legal MemSum
 
+<img title="a title" alt="Alt text" src="robot-judge.jpg" width="300vw">
 
 ## Download the code
 
