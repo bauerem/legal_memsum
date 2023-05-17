@@ -1,5 +1,6 @@
 # Legal MemSum
 
+
 ## Download the code
 
 You can download the code using git with the following command
@@ -19,9 +20,12 @@ Setup an environment and download model weights
 
 ## Use model
 
-To summarize an opinion, simply run the scrip "run_memsum.py". The script takes a filename containing an opinion to be summarized as an argument. A sample opinion is provided in the file "opinion.txt". To run the summarization, run the following python command
+To summarize an opinion, simply run the script "run_memsum.py". The script takes a filename containing an opinion to be summarized as an argument. A sample opinion is provided in the file "opinion.txt". To run the summarization, run the following python command
 
     python run_memsum.py -f opinion.txt
+  
+We also have a Huggingface Space, visit it here
+    https://huggingface.co/spaces/bauerem/memsum_app
 
 ## Output
 
